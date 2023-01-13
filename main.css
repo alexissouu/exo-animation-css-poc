@@ -1,0 +1,43 @@
+
+body {
+    background: url(./image/demi-finale-cdf-ouverture-de-la-billetterie-ce-jeudi-pour-les-abonnes-953749634.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 850px;
+}
+
+.card {
+    margin: 100px;
+    margin-left: 400px;
+    width: 400px;
+    transition: width 0.5s ease-in-out;
+    
+}
+
+.part2 {
+    visibility: hidden;
+    display: none;
+    transition: display 0.5s;
+}
+
+.card:hover .part2{
+    visibility: visible;
+    display: block;
+}
+
+.card:hover {
+    width: 1200px; 
+  }
+
+img {
+    width: 300px;
+    height: auto;
+
+}
+
+body {
+    background-color: green;
+}
